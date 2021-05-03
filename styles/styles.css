@@ -1,5 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: rebeccapurple;
+}
+
 .table .card__btn {
   display: inline;
   margin: 0;
   padding: 0.1rem 0.4rem;
+}
+.col2 {
+  display: flex;
+  flex-direction: row;
+}
+.page {
+  padding: 1rem;
+  background: 0;
+  transition: 0.5s all;
+}
+.title--medium {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.125rem;
+  font-weight: 700;
 }
