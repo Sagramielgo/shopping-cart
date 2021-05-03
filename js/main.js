@@ -14,19 +14,19 @@ function getProductHtmlCode(name, price, imageUrl) {
 
 function paintProducts() {
   const product1 = getProductHtmlCode(
-    'Node JS',
+    'Unicorn',
     '12,00',
-    './images/node-js.jpg'
+    './images/unicornio.jpg'
   );
   const product2 = getProductHtmlCode(
-    'JavaScript',
+    'Fat Cat',
     '15,00',
-    './images/javascript.jpg'
+    './images/fat-cat.jpg'
   );
   const product3 = getProductHtmlCode(
-    'React JS',
+    'Stinky Dog',
     '13,00',
-    './images/react.jpg'
+    './images/stinky-dog.png'
   );
   cardsElement.innerHTML = product1 + product2 + product3;
 }
