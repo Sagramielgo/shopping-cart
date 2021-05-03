@@ -11,3 +11,24 @@ function getProductHtmlCode(name, price, imageUrl) {
   htmlCode += `</article>`;
   return htmlCode;
 }
+
+function paintProducts() {
+  const product1 = getProductHtmlCode(
+    'Node JS',
+    '12,00',
+    './images/node-js.jpg'
+  );
+  const product2 = getProductHtmlCode(
+    'JavaScript',
+    '15,00',
+    './images/javascript.jpg'
+  );
+  const product3 = getProductHtmlCode(
+    'React JS',
+    '13,00',
+    './images/react.jpg'
+  );
+  cardsElement.innerHTML = product1 + product2 + product3;
+}
+
+paintProducts();
